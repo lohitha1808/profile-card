@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Profile Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAIhJREFUSEvtlTESgDAIBC+9j/JpNv7LT1lZaJWKycwFiFCQGtiwMElD0GlBXBT4N/Oluqs+nJ2LeiPVrzNYcNKBnRuW5Wqru5Pd4PpiclcsFzW+dOAw1cyYTDHUPEyEQXI6MPNWbwBurQ3LVi8BM9/iCeDx7lhbj85Lt1z0zbWB1bHW3HRemOoPr+8NHxYc2DsAAAAASUVORK5CYII=" class="menu-icon"/>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAzNJREFUSEvF1lnorlMUBvDfyRiRKVPIlcSNsY4iU4YLuRAOMhx0TtyIY44LLmQ8yYVCmUrmkyiZp6RMhxQ3ciEyy0ym0KP1ap/3vO//+75/6b9uvu/dw3r2Xs+z1l6LLJAtWiBc8wHeAcdgizr0N1iFT2a5xKzA++F5bNgD+QkH4q1pwWcFfhDHjTi/B6f8H8Dr4VXshZdwUIG82Nw2Efl9GvCxG4fH0/A37sQ+uANbldOE+9D6/xwOqf9f4XS8jaU1dhc+7R9mCHgbvIP8xr7FZvwnxM9wHh6o+ZNwA7ar7xz2O2xe3x9hb3zdgg8Bj/H4Ay6qm//Ru0FoWI5rsfFAqHPIE+YCPhxP1YIsjmCuxhcVwo8n8Lczbi9KLsPJWFJ7jsDT3f7+jcPdwfgeu+LzAaBjcXbDazi+GY8MrN0W72MTPIvDxoDfw25IKC/BjSWwbv31uGDk1lfgymYul4oWEv51Szd7jAGHh3sbIQUovMaObwT1K6KFbrwrKKHqmRpfiRX1/68K+cNjwBlfjIRvo+K4KwqpSnsWDUmvD8pJKFld66OPI2v8vhLUz0XL65NUnfmcMKG6CpfXht+wPm4pjls/yfHkb+r2ljWRECdavwwpfayAJJQb4BpcWo5Sj5Mqt+KsHs+3YRl+xKY1dx0uRPZFXGvYEHAb6vtxYu14GftXcUjIP6zxXfBGAbYV7SEkA6YKdXIu3HQHasV1NB5tbh/H65ToOnGF364OpJqdX+tTzfK45Pn81/o3fhe7VzqFn5t66dSFrx+5fF+MzLe+z62xpFPqdx6YQeCu4E8qIOfggPLxWAnuiYHTtAWkVfxaN05Ze7IcdCUzpS88RbWTSuaO9ZpFhMmItmS2OT7Y+sz3kTijwtqpug3AxEcii7cuPravncnNOAtPsfRWEeEr9Z2QR/3d+j8rrdpncV982Z5krkbg1BLW3dXYpUjEQexxHFX/w21XrV7DmZVyaSRiaSTyhq9hs/RcWfvmHK1PymYOltSZaLMAx1lC2r2vfefJ/3QjU9mswKlqL4y0t3nHE5GpbFbgON2pGvr0YbGIL8/dWg3dXCeYD/BUN5q0aMGA/wGvSbAfLR+KXQAAAABJRU5ErkJggg==" class="setting-icon"/>
+            <img src="./self.jpg" class="profile-pic">
+            <h3>Lohitha Pesala</h3>
+            <p>Student at GITAM</p>
+            <div class="social-media">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAvVJREFUSEvl1ksIVVUUBuDPntADDJKy7EFYoaCp1aSwxJqVJBIURPmAGjizwkBKrAiFipwIDco0IXBQSZaTgkiDoqdIUkgNIiuCIElrlsUv68bhdM59NDFow+XC2Xuvf61//XutNcVJWlNOEq7/PPB0zMSpIxj6A1/jx1FMDov4QjyN23DeKEOt/V/wFtb2OdEHHLCdOLsM/obPkYiGrTOwAGfWoWO4C3val7qAz8I3SMQv4Xl8OgbowPZpWIjH6/8HXInfm+BdwLmwviK+e0KKc/xeToj2ZbyLReXEhlHAh3FxRfzThMABDWDWykrPfnyPGcOAQ28U+RVm9YDGqTtwA/7EB3i97t2H7XVvVaXqKM7BNPw8sNmmOsJIPt+v/LSxH8AzOLe18SvWYCtWFNVf4OPSyxWYg3w7sdrAEcXeegq3t4w/VKAB2YzPcDrmFmiiCnj2mutAgYahsNMJfCveLuqWNW7PL+9D1bWVs6bxS8uRMBHWDjY2k+NrisEwORT4VdzZuPwEHsODeK4n949gEx7FU40zYSaO34R9fcC34J2OiHcj1OeXitS1wlAcbjsdzYSFPKv3+oCzmbf3JpY0rO8qJUfNb0wIHIFdh8Vlu5PqAXCMB2SwUlBSWB7Gsz3A64ri/G9snPmkdHFzCXcocDviS+ptp+zN6xDXZVUsUi6vbjWGscR1Y73h5LH9nFZjC1L482QSSZpCFJtnlBp/P15oMRKFz8b1dacz4qgvKuwrIDEcqrsKSBT/Ykca0nBSQOJg3nQncOrpd/gWl/fkMiVzKcJO2uSHeK2n755SXSltMulKH+gEzoRxpGrrReNMEj3ODT5HzVF10jO12Vq72mLoSoF/BfeMMDxqO+U3ZTh9PTb/Xl3A5+NQjTuZHJ7ERzg+CqX2B4NA7iUdGYOuanamnOsbfZZjWwPo344+MZFWuaPt9LBhL7U1Sk0Fi0gmWWEntSAvIHT/Y40zV18wZCjoc+ZLDJ1exgGeJNKxz/7/gP8C/LagH31MPSUAAAAASUVORK5CYII="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAs1JREFUSEvt1l/on3MUB/DXlmmEYiP5U7SJtrEoG8tqtQsuXCh/SijFmv8udoVNNn9S25TWUNxwIaalJS6klH+xxv5wNUZIRIkYG2N6/zpPPd/H9/muX8nvd7Fz9Tyf55zzPn/e53yeKSZIpkwQrsPA/1vlJ32pz8V+fIE/R5TlSMzFLvw1qnyjMj4dy3ENzionv2MNHsMfLcdnYyWuxFHYi7ewFm8OC6AP+FS8j9N6ov4Al+EnXI6XcQR+w6c4j7GJyfvS8jXgahjwCXgX55TmHryGC7CoHOZTMrkT2zAd63F/gcXHU7gaP2IhPmsjDwN+EreUUp5vaxlchFcws85+xTF4sEDbvo/FTpyJF3DtKOAZ+Lr6FKNk+Xen3LOxFcfX+W7M6yFd+PFiES0BxPeYdDO+Fw/XtxvxbE+P78CGFuFm4dshuun7NzipCLliGHBbKX05pUao6y96nyBMbuQZLOsJ8hHcUz1upmMg4/PxURn/qyctpyHQ6iJNRurkascCfDgEfEkRMS3LqI2NYbvUGYsQJ/IQVg1xMgc7MK1Il3F6vvTCiQR/sGOXffBVnWURpVoDwFkWGYFIX3/fxiX4vMYtWyyLYnHZpfcbO8BTsa+CDdle6gK3iRVH73Qc3IT0MnIFttRzGJ1sA5CFkap82bHNqj0D9yE9H8j4LjxeBpfi9ZZxiLS9epSAmgwblXVoGJsKpK/tkv+M4/BA8WMAOKvtjfLUZumJeA+Z35RsPjK7bQlpcjFEJxICZqlELi77PF+Fzd2Mj8Z3yMaJvIqPq99hbuR2PNEBbV4vrPbkhopswve4rpZNsg7RfukC5/0GPNfjeNSINSY34+ke+0drnsc+D9vVt9Y4ZdFHMjIpfZbAgR6n7ePrkR2fHd5Ittzd7b73XYs5D1sjKfd4pfkhyK2VW+mHroNJ/+sz3owPqX8440OW6L9SmLBS/wPPRosfV9KewwAAAABJRU5ErkJggg=="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAXVJREFUSEvt1r9LlVEcx/GX0BCBQ0JL4KDS4miQDSoqODm6BYLQUBSBQ2IgYjSI6KCDmH+A4FaLi5QYtQVFW0M/JnPUoAZdJI48wsMX7xXiXO6l7nd7Puc83/f5fM/3nOdpUadoqRNXw4EncA07+FiLqpzn+B36SrBxbOSGR/A9rAfIZ3TXGjyHpwHyG621BvfjbYBs4k6twSn/fTzBdbzEXSTXWaPhjtPfumvDDfzAXrUk0XEHvocX1vCw0B5jKYxfxQBSY/aUxn5hG+mkHMRF5ABPYqWKu6+4hcPynBzgI1y+YG9mMJ8bnPKd4Bv2i7JHQ+navZkbnBynK/ZDkXgQr3CpBEoLu4LjMy1HqVfxKJR6C6NBS92e9vs0coDH8CJAlpGarhy9eJ8TPILXATKLZ0EbwptK4M6iScrvPMeDQpjCYkg4jN2gTWOhCW6WutwD/19zpcv+djgG6dv6pdDa0RXGP+Fn0C6c98/8gQTjlR/r5vgPzo1yH1gxDtsAAAAASUVORK5CYII="/>
+            </div>
+            <span><button type="button">Follow</button></span>
+            <div class="profile-bottom">
+                <p>Learn More About My Profile</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAWRJREFUSEvt1d9KFVEUx/HPuQzSiO5F6AVEiFKCVAojCHoEew+fwGfwwjfwTjREE0SoIHoAL7TrQCxJRC9iyRoYDufMmTlHOzezb2b2zFq/716//a9jTK0zJq4W/N+cb62ua/U0VjJ4Ayd1E4u4Ya1ewH6KLOJzCx7kQGv1IIeK//e+uJ5iHR9wXhpVFfgRNvERp/0qqZrjJ/iOqXy+wkUK9QM/xAFmcYw5/OoFrwI/xh5mMvELlvAXvcAB3cXzjP+R8WdNwRE/mRUU8EO8wYuuA+RrDrIMDYd+D2N1kRPwqORZfggX1rCd/bdYxcvsf8PrKmjE1d3HE/iUlUZenM1xXkf7mesg3o8QA/kzaHvUBYdOzOEO5vuIBnS5tAAr2U3AIfQgbe+GxyXxDpeDKh3lduqGBzTsvaoLbTLH3ZoB38I13jeFjgIubL9JeJNib2ObznFjwCj7+M5gZaG24nuxtZfoP5n8RB/nmy5uAAAAAElFTkSuQmCC"/>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
